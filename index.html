@@ -1,120 +1,126 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Microsoft Copilot Chat MS-4023 Badge</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Microsoft Copilot Chat MS-4023 Badge</title>
 
-<meta property="og:title" content="Microsoft Copilot Chat apmācības publiskajam sektoram | MS-4023">
-<meta property="og:description" content="Issued by Bittnet Training">
-<meta property="og:image" content="badges.png">
+  <meta property="og:title" content="Microsoft Copilot Chat apmācības publiskajam sektoram | MS-4023" />
+  <meta property="og:description" content="Issued by Bittnet Training & Microsoft" />
+  <meta property="og:image" content="https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/Microsoft%20Copilot%20Chat%20Completion%20Badge.png" />
 
-<style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f6fb;
+      padding: 40px 20px;
+      margin: 0;
+    }
 
-body{
-font-family:Arial;
-text-align:center;
-background:#f4f6fb;
-padding:40px;
-}
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      max-width: 720px;
+      margin: auto;
+    }
 
-.card{
-background:white;
-padding:40px;
-border-radius:16px;
-box-shadow:0 10px 30px rgba(0,0,0,0.1);
-max-width:700px;
-margin:auto;
-}
+    .badge-img {
+      width: 340px;
+      max-width: 100%;
+      height: auto;
+      margin: 24px 0;
+    }
 
-img{
-width:320px;
-margin:20px 0;
-}
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 10px 6px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #0a66c2;
+      color: white;
+      font-weight: bold;
+    }
 
-.btn{
-display:inline-block;
-padding:12px 20px;
-margin:10px;
-border-radius:6px;
-text-decoration:none;
-background:#0a66c2;
-color:white;
-font-weight:bold;
-}
+    .btn.secondary {
+      background: #444;
+    }
 
-.btn.secondary{
-background:#444;
-}
+    .meta {
+      margin-top: 20px;
+      line-height: 1.8;
+      font-size: 18px;
+    }
 
-.meta{
-margin-top:20px;
-line-height:1.7;
-}
+    h1 {
+      margin-bottom: 8px;
+    }
 
-</style>
+    h2 {
+      margin-top: 0;
+      font-weight: 600;
+    }
 
+    h3 {
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+
+    a.verify-link {
+      color: #0a66c2;
+    }
+  </style>
 </head>
-
 <body>
+  <div class="card">
+    <h1>Microsoft Copilot Chat</h1>
+    <h2>apmācības publiskajam sektoram</h2>
+    <h3>MS-4023</h3>
 
-<div class="card">
+    <img
+      class="badge-img"
+      src="Microsoft%20Copilot%20Chat%20Completion%20Badge.png"
+      alt="Microsoft Copilot Chat Completion Badge"
+    />
 
-<h1>Microsoft Copilot Chat</h1>
-<h2>apmācības publiskajam sektoram</h2>
-<h3>MS-4023</h3>
+    <div class="meta">
+      <p><b>Issued by:</b> Bittnet Training &amp; Microsoft</p>
+      <p><b>Year:</b> 2026</p>
+      <p><b>Certificate ID:</b> <span id="certID"></span></p>
+      <p>
+        <b>Verification:</b>
+        <a class="verify-link" id="verifyLink" href="#">Open verification page</a>
+      </p>
+    </div>
 
-<img src="badges.png">
+    <a class="btn" href="Microsoft%20Copilot%20Chat%20Completion%20Badge.png" download>
+      Download Badge
+    </a>
 
-<div class="meta">
+    <a
+      class="btn secondary"
+      href="https://www.linkedin.com/sharing/share-offsite/?url=https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Share on LinkedIn
+    </a>
+  </div>
 
-<p><b>Issued by:</b> Bittnet Training</p>
+  <script>
+    function generateID() {
+      const random = Math.random().toString(36).substring(2, 8).toUpperCase();
+      const certID = "BTN-MS4023-2026-" + random;
 
-<p><b>Technology Partner:</b> Microsoft</p>
+      document.getElementById("certID").innerText = certID;
+      document.getElementById("verifyLink").href =
+        "https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/verify.html?id=" + certID;
+    }
 
-<p><b>Year:</b> 2026</p>
-
-<p><b>Certificate ID:</b> <span id="certID"></span></p>
-
-<p>
-<b>Verification:</b>
-<a id="verifyLink" href="#">Open verification page</a>
-</p>
-
-</div>
-
-<a class="btn" href="badges.png" download>
-Download Badge
-</a>
-
-<br>
-
-<a class="btn secondary"
-href="https://www.linkedin.com/sharing/share-offsite/?url=https://owenclaudia88-hue.github.io/Microsoft-Copilot-Badge/">
-Share on LinkedIn
-</a>
-
-</div>
-
-<script>
-
-function generateID(){
-
-const random = Math.random().toString(36).substring(2,8).toUpperCase()
-
-const certID = "BTN-MS4023-2026-" + random
-
-document.getElementById("certID").innerText = certID
-
-document.getElementById("verifyLink").href =
-"https://owenclaudia88-hue.github.io/Microsoft-Copilot-Badge/verify.html?id=" + certID
-
-}
-
-generateID()
-
-</script>
-
+    generateID();
+  </script>
 </body>
-
 </html>
