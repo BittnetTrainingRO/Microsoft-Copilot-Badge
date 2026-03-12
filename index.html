@@ -7,7 +7,7 @@
 
   <meta property="og:title" content="Microsoft Copilot Chat - Academic Learning Session 2026" />
   <meta property="og:description" content="Issued by Bittnet Training & Microsoft" />
-  <meta property="og:image" content="https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/badge-v2.png" />
+  <meta property="og:image" content="https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/badge.png" />
 
   <style>
     body {
@@ -64,32 +64,33 @@
       font-weight: 600;
     }
 
-    h3 {
-      margin-top: 8px;
-      margin-bottom: 16px;
-    }
-
     a.verify-link {
       color: #0a66c2;
     }
   </style>
 </head>
+
 <body>
   <div class="card">
+
     <h1>Microsoft Copilot Chat</h1>
     <h2>Academic Learning Session</h2>
-    <h3>2026</h3>
 
-    <img class="badge-img" src="badge-v2.png" alt="Microsoft Copilot Chat Academic Learning Session 2026 Badge" />
+    <img class="badge-img" src="badge.png" alt="Microsoft Copilot Chat Academic Learning Session 2026 Badge" />
 
     <div class="meta">
       <p><b>Issued by:</b> Bittnet Training &amp; Microsoft</p>
       <p><b>Year:</b> 2026</p>
       <p><b>Certificate ID:</b> <span id="certID"></span></p>
-      <p><b>Verification:</b> <a class="verify-link" id="verifyLink" href="#">Open verification page</a></p>
+      <p>
+        <b>Verification:</b>
+        <a class="verify-link" id="verifyLink" href="#">
+          Open verification page
+        </a>
+      </p>
     </div>
 
-    <a class="btn" href="badge-v2.png" download>Download Badge</a>
+    <a class="btn" href="badge.png" download>Download Badge</a>
 
     <a
       class="btn secondary"
@@ -99,19 +100,24 @@
     >
       Share on LinkedIn
     </a>
+
   </div>
 
   <script>
     function generateID() {
+
       const random = Math.random().toString(36).substring(2, 8).toUpperCase();
+
       const certID = "BTN-ACADEMIC-2026-" + random;
 
       document.getElementById("certID").innerText = certID;
+
       document.getElementById("verifyLink").href =
         "https://bittnettrainingro.github.io/Microsoft-Copilot-Badge/verify.html?id=" + certID;
     }
 
     generateID();
   </script>
+
 </body>
 </html>
